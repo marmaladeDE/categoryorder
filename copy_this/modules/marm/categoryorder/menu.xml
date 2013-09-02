@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="mxmanageprod">
+            <SUBMENU id="mxcategories" cl="category" list="category_list">
+                <TAB id="tbclcategory_main" cl="category_main" />
+                <TAB id="tbclcategory_text" cl="category_text" />
+                <TAB id="tbclcategory_pictures" cl="category_pictures" />
+                <TAB id="tbclcategory_order" cl="marm_category_order" />
+                <TAB id="tbclcategory_seo" cl="category_seo" />
+                <BTN id="category_new" />
+                <BTN id="category_refresh" />
+                <BTN id="category_resetnrofarticles" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>
