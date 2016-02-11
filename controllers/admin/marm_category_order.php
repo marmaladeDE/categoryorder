@@ -38,7 +38,7 @@ class marm_category_order extends oxAdminDetails
         $this->_aViewData['edit'] = $oCategory = oxNew( 'oxcategory' );
 
         // resetting
-        oxSession::setVar( 'neworder_sess', null );
+        oxRegistry::getSession()->setVariable( 'neworder_sess', null );
 
         $soxId = $this->getEditObjectId();
 
@@ -54,7 +54,7 @@ class marm_category_order extends oxAdminDetails
                 $this->_aViewData['readonly'] = true;
             }
         }
-        if ( oxConfig::getParameter("aoc") ) {
+        if ( oxRegistry::getConfig()->getRequestParameter("aoc") ) {
             return "marm_category_order_popup.tpl";
         }
         return "marm_category_order.tpl";
@@ -71,8 +71,8 @@ class marm_category_order extends oxAdminDetails
     {
         $success = '';
         
-        $sortedList = oxConfig::getParameter("sortedList");
-        $catId = oxConfig::getParameter("catId");
+        $sortedList = oxRegistry::getConfig()->getRequestParameter("sortedList");
+        $catId = oxRegistry::getConfig()->getRequestParameter("catId");
         
         $newsortedList = explode('&', str_replace('ID[]=', '', $sortedList));
         $result = count($newsortedList);
