@@ -18,7 +18,7 @@
                     $(counterDiv).html( index + 1 );
                 });
                 $.ajax({
-                        type: "GET",
+                        type: "POST",
                         url: "[{$oViewConf->getSelfLink()}]",
                         data: {
                             cl: "marm_category_order",

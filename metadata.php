@@ -16,7 +16,7 @@ $aModule = array(
         'en'            => 'Sort the products of a category in backend via drag & drop.',
     ),
     'thumbnail'    => 'marmalade.jpg',
-    'version'      => '1.0',
+    'version'      => '1.0.1',
     'author'       => 'Konstantin Kuznetsov',
     'url'          => 'http://www.marmalade.de',
     'email'        => 'support@marmalade.de',

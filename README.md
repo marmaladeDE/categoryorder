@@ -7,8 +7,7 @@ Die neue Artikelreihenfolge wird sofort gespeichert mit der ersten Änderung.
 
 Hinweise
 --------
-Die OXID Version 4.7.3 hat im Frontend eine feste Sortierung implementiert (default =  "Titel").
-Die Sortierung in der Datenbank wird hier nicht berücksichtigt.
+Funktioniert mit Oxid Version 4.9.x
 
 Autor
 ------
@@ -17,7 +16,7 @@ Autor
 
 Version
 -------
-1.0
+1.0.1
 
 Installation
 ============
@@ -28,6 +27,7 @@ Installation
 
 3. Dateien/Verzeichnisse in "categoryorder" kopieren
 
+3.1. !kopiere! die Datei Shop-Verzeichnis/modules/oe/vendormetadata.php nach Shop-Verzeichnis/modules/marm/
 4. Modul aktivieren
 
 5. Cache löschen.
