@@ -1,0 +1,14 @@
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 70%; line-height: 18px; }
+#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; min-height: 18px; background: #FFFFFF; cursor: default; }
+#sortable li:last-child { margin-bottom: 30px !important; }
+#sortable li > span { position: absolute; margin-left: -1.3em; }
+.sortable_title { font-weight: bold; margin: 20px 5px 10px; }
+.order_item_artnum { margin: 0 0 0 -5px !important; display: inline; float: left; padding: 0 8px 0 8px; min-height: 22px; min-width: 70px; }
+.order_item_title { display: inline; }
+.marm_counter { float: right; padding-left: 16px; }
+.sortable_info { padding-left: 5px; }
+.sortable_list_header { width: 70%; padding: 15px 0 3px 5px; }
+.list_header_1 { margin-left: 23px; }
+.list_header_2 { margin-left: 175px; }
+.list_header_3 { float: right; padding-right: 13px; }
+#success { color: red; margin-left: 5px; }
