@@ -26,7 +26,7 @@ Installation
 1. Backup von Shop und Datenbank erstellen.
 
 2. Composer ausführen:
-```composer require florianpalme/oxid-debugbar```
+```composer require proudcommerce/categoryorder```
 
 3. Modul aktivieren
 
