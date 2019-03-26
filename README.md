@@ -11,10 +11,10 @@ Funktioniert mit Oxid Version 6.x
 
 Autor
 ------
-[Konstantin Kuznetsov](mailto:support@marmalade.de)  
-[marmalade GmbH](http://www.marmalade.de/)  
-[Florian Palme](mailto:welcome@proudcommerce.com)  
-[ProudCommerce](https://www.proudcommerce.com/)
+[marmalade GmbH](http://www.marmalade.de/) / Konstantin Kuznetsov
+
+[ProudCommerce](https://www.proudcommerce.com/) / Florian Palme
+
 
 Version
 -------
