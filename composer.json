@@ -1,7 +1,7 @@
 {
-  "name": "marm/categoryorder",
+  "name": "proudcommerce/categoryorder",
   "version": "2.0.0",
-  "description": "marmalade :: Drag&Drop Artikelsortierung",
+  "description": "Drag & Drop Artikelsortierung",
   "type": "oxideshop-module",
   "license": [
     "proprietary"
@@ -20,9 +20,6 @@
       "role": "Developer"
     }
   ],
-  "support": {
-    "email": "support@proudcommerce.com"
-  },
   "require": {
     "php": ">= 7.0"
   },
