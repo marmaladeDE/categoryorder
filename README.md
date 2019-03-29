@@ -1,40 +1,40 @@
 Produkte sortieren via Drag & Drop
 ==================================
 
-Modul zum Sortieren von Artikel einer Kategorie im Adminbereich.
-Die Sortierung erfolgt per Drag & Drop.
+Modul zum Sortieren von Artikel einer Kategorie im Adminbereich.  
+Die Sortierung erfolgt per Drag & Drop.  
 Die neue Artikelreihenfolge wird sofort gespeichert mit der ersten Änderung.
 
 Hinweise
 --------
-Funktioniert mit Oxid Version 4.9.x
+Funktioniert mit Oxid Version 6.x
 
 Autor
 ------
-[Konstantin Kuznetsov](mailto:support@marmalade.de)  
-[marmalade GmbH](http://www.marmalade.de/)
+[marmalade GmbH](http://www.marmalade.de/) / Konstantin Kuznetsov
+
+[ProudCommerce](https://www.proudcommerce.com/) / Florian Palme
+
 
 Version
 -------
-1.0.1
+2.0.0
 
 Installation
 ============
 
 1. Backup von Shop und Datenbank erstellen.
 
-2. Im Shop-Verzeichnis unter modules -> die Verzeichnis-Struktur erstellen "marm/categoryorder"
+2. Composer ausführen:
+```composer require proudcommerce/categoryorder```
 
-3. Dateien/Verzeichnisse in "categoryorder" kopieren
+3. Modul aktivieren
 
-3.1. !kopiere! die Datei Shop-Verzeichnis/modules/oe/vendormetadata.php nach Shop-Verzeichnis/modules/marm/
-4. Modul aktivieren
+4. Cache löschen.
 
-5. Cache löschen.
+5. Sie finden jetzt die neue Einstellung unter Artikel verwalten > Kategorien > Sortierung > Button "Drag&Drop Artikelsortierung"
 
-6. Sie finden jetzt die neue Einstellung unter Artikel verwalten > Kategorien > Sortierung > Button "Drag&Drop Artikelsortierung"
-
-7. have fun ;-)
+6. have fun ;-)
 
 Hinweise
 ========
@@ -42,6 +42,6 @@ Hinweise
 Bibliotheken
 ------------
 
-jquery-1.9.1
+jquery-1.10.2
 
-jquery-ui 1.10.3
+jquery-ui 1.10.4

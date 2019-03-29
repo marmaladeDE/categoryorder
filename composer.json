@@ -1,0 +1,36 @@
+{
+  "name": "proudcommerce/categoryorder",
+  "version": "2.0.0",
+  "description": "Drag & Drop Artikelsortierung",
+  "type": "oxideshop-module",
+  "license": [
+    "proprietary"
+  ],
+  "authors": [
+    {
+      "name": "ProudCommerce",
+      "homepage": "https://www.proudcommerce.com/",
+      "email": "welcome@proudcommerce.com",
+      "role": "Developer"
+    },
+    {
+      "name": "marmalade GmbH",
+      "homepage": "https://www.marmalade.de/",
+      "email": "mail@marmalade.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">= 7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Marmalade\\CategoryOrder\\": "../../../source/modules/marm/categoryorder"
+    }
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "marm/categoryorder"
+    }
+  }
+}
